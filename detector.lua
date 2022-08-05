@@ -1,7 +1,7 @@
 local mods = game:HttpGet("https://raw.githubusercontent.com/xpgn/sb2/main/mods.txt"):split("\n");
 local players = game:GetService("Players");
 local httpService = game:GetService("HttpService");
-local Webhook = discordWeb
+local Webhook = _G.discordWeb
 
 local function sendMessage(name, flag)
     if not flag then
